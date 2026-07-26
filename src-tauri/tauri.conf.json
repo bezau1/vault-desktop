@@ -27,6 +27,9 @@
     "category": "Utility",
     "shortDescription": "Local, encrypted notes vault",
     "longDescription": "Vault is a local-only encrypted notes app. All encryption/decryption happens in the browser engine via WebCrypto (AES-256-GCM); notes never leave the device.",
+    "macOS": {
+      "minimumSystemVersion": "11.0"
+    },
     "icon": [
       "icons/32x32.png",
       "icons/128x128.png",
